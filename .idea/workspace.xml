@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f961e169-0247-44cf-af15-e8879074dd32" name="Changes" comment="Inversion of Control lesson of Spring Course">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/stryghul/springcourse/TestSpring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/stryghul/springcourse/TestSpring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +90,7 @@
       <updated>1678952348046</updated>
       <workItem from="1678952349280" duration="331000" />
       <workItem from="1678953314737" duration="631000" />
-      <workItem from="1678954042596" duration="5242000" />
+      <workItem from="1678954042596" duration="6940000" />
     </task>
     <task id="LOCAL-00001" summary="Empty project with Spring dependensies created.">
       <created>1678953117884</created>
@@ -125,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678960002795</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Inversion of Control lesson of Spring Course">
+      <created>1678973610798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678973610798</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
