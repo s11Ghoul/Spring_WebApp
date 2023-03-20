@@ -9,14 +9,25 @@
 
     <context:property-placeholder location="musicPlayer.properties"/>
 
-    <bean id="musicBean"
+    <bean id="musicBean1"
           class="ua.stryghul.springcourse.RockMusic">
+    </bean>
+    <bean id="musicBean2"
+          class="ua.stryghul.springcourse.ClassicalMusic">
+    </bean>
+    <bean id="musicBean3"
+          class="ua.stryghul.springcourse.JazzMusic">
     </bean>
 
     <bean id="musicPlayer"
           class="ua.stryghul.springcourse.MusicPlayer">
-        <property name="music" ref="musicBean"/>
-
+        <property name="music">
+            <list>
+                <ref bean="musicBean1" />
+                <ref bean="musicBean2" />
+                <ref bean="musicBean3" />
+            </list>
+        </property>
         <property name="name" value="${musicPlayer.name}"/>
         <property name="volume" value="${musicPlayer.volume}"/>
     </bean>
